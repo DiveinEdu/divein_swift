@@ -31,7 +31,7 @@ for (animalName, _) in numberOfLegs {
     println("\(animalName)s have \(numberOfLegs[animalName])")
 }
 
-numberOfLegs["spider"]
+println(numberOfLegs["spider"])
 
 //遍历字符串
 for character in "Hello" {

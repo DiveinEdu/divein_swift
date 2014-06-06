@@ -71,6 +71,18 @@ Swift编程高级教程（二）变量与常量下
 
 http://blog.diveinedu.cn/swift_variable_constant_2/
 
+Swift编程高级教程(三)集合类型-数组
+
+http://blog.diveinedu.cn/swift_collection_array/
+
+Swift编程高级教程(四)流程控制-循环语句
+
+http://blog.diveinedu.net/swift_control_flow_for/
+
+Swift编程高级教程(四)流程控制-分支语句
+
+http://blog.diveinedu.cn/swift_control_flow_if_switch/
+
 Swift基础教程（第一课 第一个Swift应用）
 
 http://blog.diveinedu.cn/swift_first_app/

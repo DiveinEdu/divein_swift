@@ -17,64 +17,64 @@ http://ubuntucollege.cn/course/29
 #### 技术博客
 Objective-C和Swift混合编程开发(一)
 
-http://blog.diveinedu.net/objective-c-swift-framework-dev/
+http://blog.diveinedu.cn/objective-c-swift-framework-dev/
 
 Swift与Objective-C API交互(一）
 
-http://blog.diveinedu.net/swift_objective_c_api_interactive_1/
+http://blog.diveinedu.cn/swift_objective_c_api_interactive_1/
 
 Swift与Objective-C API交互(二）
 
-http://blog.diveinedu.net/swift_objective_c_api_interactive_2/
+http://blog.diveinedu.cn/swift_objective_c_api_interactive_2/
 
 Swift与Objective-C API交互（三）
 
-http://blog.diveinedu.net/swift_objective_c_api_interactive_3/
+http://blog.diveinedu.cn/swift_objective_c_api_interactive_3/
 
 Swift简明教程（一）变量与常量
 
-http://blog.diveinedu.net/swift_variable/
+http://blog.diveinedu.cn/swift_variable/
 
 Swift简明教程（二）流程控制
 
-http://blog.diveinedu.net/control_flow_swift/
+http://blog.diveinedu.cn/control_flow_swift/
 
 Swift简明教程(三）-函数与闭包
 
-http://blog.diveinedu.net/swift_function_closure/
+http://blog.diveinedu.cn/swift_function_closure/
 
 Swift简明教程（四）类与对象
 
-http://blog.diveinedu.net/swift_class_object/
+http://blog.diveinedu.cn/swift_class_object/
 
 Swift简明教程（五）枚举与结构体
 
-http://blog.diveinedu.net/swift_enum/
+http://blog.diveinedu.cn/swift_enum/
 
 Swift简明教程（六）协议与扩展
 
-http://blog.diveinedu.net/swift_protocol_extension/
+http://blog.diveinedu.cn/swift_protocol_extension/
 
 Swift简明教程（七）泛型
 
-http://blog.diveinedu.net/swift_general/
+http://blog.diveinedu.cn/swift_general/
 
 Swift编程高级教程（一）变量与常量
 
-http://blog.diveinedu.net/swift_variable_constant/
+http://blog.diveinedu.cn/swift_variable_constant/
 
 Swift编程高级教程（二）变量与常量上
 
-http://blog.diveinedu.net/swift_advanced_property_1/
+http://blog.diveinedu.cn/swift_advanced_property_1/
 
 Swift编程高级教程（二）变量与常量下
 
-http://blog.diveinedu.net/swift_variable_constant_2/
+http://blog.diveinedu.cn/swift_variable_constant_2/
 
 Swift基础教程（第一课 第一个Swift应用）
 
-http://blog.diveinedu.net/swift_first_app/
+http://blog.diveinedu.cn/swift_first_app/
 
 Swift基础教程（swift代码创建第一个控件之UILabel）
 
-http://blog.diveinedu.net/swift_label/
+http://blog.diveinedu.cn/swift_label/

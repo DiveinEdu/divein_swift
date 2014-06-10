@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         var score = scoreTextField.text.toInt() //Optional
         switch score! {
             case 0..60:
-                imageView.image = UIImage(named: "Delete")  
+                imageView.image = UIImage(named: "Delete")
                 break
             case 60..80:
                 imageView.image = UIImage(named: "right")

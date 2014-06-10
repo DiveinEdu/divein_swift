@@ -23,7 +23,8 @@ for name in names {
     println("Hello, \(name)")
 }
 
-names[1]
+var sum: Double = 100
+sum / Double(names.count)
 
 //遍历字典
 let numberOfLegs = ["spider":8, "ant":6, "cat":4]
@@ -43,3 +44,19 @@ for index = 0; index < 3; index++ {
     println("index is \(index)")
 }
 println("end index: \(index)")
+
+func join(s1: String, s2: String, _ joiner: String = " ") -> String {
+    return s1 + joiner + s2
+}
+
+join("hello", "world", "-")
+
+enum CompassPoint {
+    case North
+    case South
+    case East
+    case West
+}
+
+println(CompassPoint.North)
+

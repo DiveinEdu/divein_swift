@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00CA0031194DCEB200A05CAA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CA0030194DCEB200A05CAA /* main.swift */; };
+		00CA0033194DCEB200A05CAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CA0032194DCEB200A05CAA /* ViewController.swift */; };
+		00CA0035194DCEB200A05CAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CA0034194DCEB200A05CAA /* AppDelegate.swift */; };
+		00CA0037194DCEB200A05CAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00CA0036194DCEB200A05CAA /* Images.xcassets */; };
+		00CA003A194DCEB200A05CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CA0038194DCEB200A05CAA /* Main.storyboard */; };
+		00CA0046194DCEB200A05CAA /* SoccerTV5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CA0045194DCEB200A05CAA /* SoccerTV5Tests.swift */; };
+		00CA0050194DCEDD00A05CAA /* VLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CA004F194DCEDD00A05CAA /* VLCKit.framework */; };
+		00CA0054194DD01200A05CAA /* DVIChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CA0053194DD01200A05CAA /* DVIChannel.m */; };
+		00CA0056194DD03E00A05CAA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CA0055194DD03E00A05CAA /* Cocoa.framework */; };
+		00CA0058194DD22A00A05CAA /* VLCKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00CA004F194DCEDD00A05CAA /* VLCKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00CA0040194DCEB200A05CAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00CA0023194DCEB200A05CAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00CA002A194DCEB200A05CAA;
+			remoteInfo = SoccerTV5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		00CA0057194DD21B00A05CAA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				00CA0058194DD22A00A05CAA /* VLCKit.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00CA002B194DCEB200A05CAA /* SoccerTV5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoccerTV5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00CA002F194DCEB200A05CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00CA0030194DCEB200A05CAA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		00CA0032194DCEB200A05CAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00CA0034194DCEB200A05CAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00CA0036194DCEB200A05CAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00CA0039194DCEB200A05CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00CA003F194DCEB200A05CAA /* SoccerTV5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoccerTV5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00CA0044194DCEB200A05CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00CA0045194DCEB200A05CAA /* SoccerTV5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerTV5Tests.swift; sourceTree = "<group>"; };
+		00CA004F194DCEDD00A05CAA /* VLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VLCKit.framework; path = "../../../opensource/VLCKit-SDK/Frameworks/VLCKit.framework"; sourceTree = "<group>"; };
+		00CA0051194DD01100A05CAA /* SoccerTV5-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoccerTV5-Bridging-Header.h"; sourceTree = "<group>"; };
+		00CA0052194DD01200A05CAA /* DVIChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVIChannel.h; sourceTree = "<group>"; };
+		00CA0053194DD01200A05CAA /* DVIChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVIChannel.m; sourceTree = "<group>"; };
+		00CA0055194DD03E00A05CAA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00CA0028194DCEB200A05CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CA0056194DD03E00A05CAA /* Cocoa.framework in Frameworks */,
+				00CA0050194DCEDD00A05CAA /* VLCKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00CA003C194DCEB200A05CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00CA0022194DCEB200A05CAA = {
+			isa = PBXGroup;
+			children = (
+				00CA0055194DD03E00A05CAA /* Cocoa.framework */,
+				00CA004F194DCEDD00A05CAA /* VLCKit.framework */,
+				00CA002D194DCEB200A05CAA /* SoccerTV5 */,
+				00CA0042194DCEB200A05CAA /* SoccerTV5Tests */,
+				00CA002C194DCEB200A05CAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00CA002C194DCEB200A05CAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00CA002B194DCEB200A05CAA /* SoccerTV5.app */,
+				00CA003F194DCEB200A05CAA /* SoccerTV5Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00CA002D194DCEB200A05CAA /* SoccerTV5 */ = {
+			isa = PBXGroup;
+			children = (
+				00CA0032194DCEB200A05CAA /* ViewController.swift */,
+				00CA0034194DCEB200A05CAA /* AppDelegate.swift */,
+				00CA0052194DD01200A05CAA /* DVIChannel.h */,
+				00CA0053194DD01200A05CAA /* DVIChannel.m */,
+				00CA0036194DCEB200A05CAA /* Images.xcassets */,
+				00CA0038194DCEB200A05CAA /* Main.storyboard */,
+				00CA002E194DCEB200A05CAA /* Supporting Files */,
+				00CA0051194DD01100A05CAA /* SoccerTV5-Bridging-Header.h */,
+			);
+			path = SoccerTV5;
+			sourceTree = "<group>";
+		};
+		00CA002E194DCEB200A05CAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00CA002F194DCEB200A05CAA /* Info.plist */,
+				00CA0030194DCEB200A05CAA /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00CA0042194DCEB200A05CAA /* SoccerTV5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				00CA0045194DCEB200A05CAA /* SoccerTV5Tests.swift */,
+				00CA0043194DCEB200A05CAA /* Supporting Files */,
+			);
+			path = SoccerTV5Tests;
+			sourceTree = "<group>";
+		};
+		00CA0043194DCEB200A05CAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00CA0044194DCEB200A05CAA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00CA002A194DCEB200A05CAA /* SoccerTV5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00CA0049194DCEB200A05CAA /* Build configuration list for PBXNativeTarget "SoccerTV5" */;
+			buildPhases = (
+				00CA0027194DCEB200A05CAA /* Sources */,
+				00CA0028194DCEB200A05CAA /* Frameworks */,
+				00CA0029194DCEB200A05CAA /* Resources */,
+				00CA0057194DD21B00A05CAA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoccerTV5;
+			productName = SoccerTV5;
+			productReference = 00CA002B194DCEB200A05CAA /* SoccerTV5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00CA003E194DCEB200A05CAA /* SoccerTV5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00CA004C194DCEB200A05CAA /* Build configuration list for PBXNativeTarget "SoccerTV5Tests" */;
+			buildPhases = (
+				00CA003B194DCEB200A05CAA /* Sources */,
+				00CA003C194DCEB200A05CAA /* Frameworks */,
+				00CA003D194DCEB200A05CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00CA0041194DCEB200A05CAA /* PBXTargetDependency */,
+			);
+			name = SoccerTV5Tests;
+			productName = SoccerTV5Tests;
+			productReference = 00CA003F194DCEB200A05CAA /* SoccerTV5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00CA0023194DCEB200A05CAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "长沙戴维营教育";
+				TargetAttributes = {
+					00CA002A194DCEB200A05CAA = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					00CA003E194DCEB200A05CAA = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 00CA002A194DCEB200A05CAA;
+					};
+				};
+			};
+			buildConfigurationList = 00CA0026194DCEB200A05CAA /* Build configuration list for PBXProject "SoccerTV5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00CA0022194DCEB200A05CAA;
+			productRefGroup = 00CA002C194DCEB200A05CAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00CA002A194DCEB200A05CAA /* SoccerTV5 */,
+				00CA003E194DCEB200A05CAA /* SoccerTV5Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00CA0029194DCEB200A05CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CA0037194DCEB200A05CAA /* Images.xcassets in Resources */,
+				00CA003A194DCEB200A05CAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00CA003D194DCEB200A05CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00CA0027194DCEB200A05CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CA0035194DCEB200A05CAA /* AppDelegate.swift in Sources */,
+				00CA0033194DCEB200A05CAA /* ViewController.swift in Sources */,
+				00CA0031194DCEB200A05CAA /* main.swift in Sources */,
+				00CA0054194DD01200A05CAA /* DVIChannel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00CA003B194DCEB200A05CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CA0046194DCEB200A05CAA /* SoccerTV5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00CA0041194DCEB200A05CAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00CA002A194DCEB200A05CAA /* SoccerTV5 */;
+			targetProxy = 00CA0040194DCEB200A05CAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00CA0038194DCEB200A05CAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00CA0039194DCEB200A05CAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00CA0047194DCEB200A05CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00CA0048194DCEB200A05CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		00CA004A194DCEB200A05CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/cheetah/opensource/VLCKit-SDK/Frameworks",
+				);
+				INFOPLIST_FILE = SoccerTV5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SoccerTV5/SoccerTV5-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00CA004B194DCEB200A05CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/cheetah/opensource/VLCKit-SDK/Frameworks",
+				);
+				INFOPLIST_FILE = SoccerTV5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SoccerTV5/SoccerTV5-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		00CA004D194DCEB200A05CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SoccerTV5.app/Contents/MacOS/SoccerTV5";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SoccerTV5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		00CA004E194DCEB200A05CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SoccerTV5.app/Contents/MacOS/SoccerTV5";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SoccerTV5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00CA0026194DCEB200A05CAA /* Build configuration list for PBXProject "SoccerTV5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00CA0047194DCEB200A05CAA /* Debug */,
+				00CA0048194DCEB200A05CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00CA0049194DCEB200A05CAA /* Build configuration list for PBXNativeTarget "SoccerTV5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00CA004A194DCEB200A05CAA /* Debug */,
+				00CA004B194DCEB200A05CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00CA004C194DCEB200A05CAA /* Build configuration list for PBXNativeTarget "SoccerTV5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00CA004D194DCEB200A05CAA /* Debug */,
+				00CA004E194DCEB200A05CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00CA0023194DCEB200A05CAA /* Project object */;
+}

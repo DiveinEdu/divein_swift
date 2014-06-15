@@ -1,0 +1,10 @@
+PODS:
+  - JSONKit (1.5pre)
+
+DEPENDENCIES:
+  - JSONKit (~> 1.5pre)
+
+SPEC CHECKSUMS:
+  JSONKit: efef3bbd3372ff33f96b9c6f34cf4fe18e74ab69
+
+COCOAPODS: 0.33.1

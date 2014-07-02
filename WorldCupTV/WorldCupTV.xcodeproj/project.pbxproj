@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002FC25F194E8BB700FC32EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002FC25E194E8BB700FC32EA /* AppDelegate.swift */; };
+		002FC261194E8BB700FC32EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002FC260194E8BB700FC32EA /* ViewController.swift */; };
+		002FC264194E8BB700FC32EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002FC262194E8BB700FC32EA /* Main.storyboard */; };
+		002FC266194E8BB700FC32EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002FC265194E8BB700FC32EA /* Images.xcassets */; };
+		002FC272194E8BB700FC32EA /* WorldCupTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002FC271194E8BB700FC32EA /* WorldCupTVTests.swift */; };
+		002FC27C194E8C8100FC32EA /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002FC27B194E8C8100FC32EA /* MobileVLCKit.framework */; };
+		002FC280194E8D0400FC32EA /* Channel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 002FC27F194E8D0400FC32EA /* Channel.mm */; };
+		002FC284194E90FF00FC32EA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002FC283194E90FF00FC32EA /* AudioToolbox.framework */; };
+		002FC286194E912000FC32EA /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 002FC285194E912000FC32EA /* libbz2.dylib */; };
+		002FC288194E913800FC32EA /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002FC287194E913800FC32EA /* CoreText.framework */; };
+		002FC28A194E915000FC32EA /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002FC289194E915000FC32EA /* OpenGLES.framework */; };
+		002FC28C194E916400FC32EA /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 002FC28B194E916400FC32EA /* libstdc++.dylib */; };
+		002FC28E194E934A00FC32EA /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 002FC28D194E934A00FC32EA /* libiconv.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		002FC26C194E8BB700FC32EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 002FC251194E8BB700FC32EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 002FC258194E8BB700FC32EA;
+			remoteInfo = WorldCupTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002FC259194E8BB700FC32EA /* WorldCupTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldCupTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		002FC25D194E8BB700FC32EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002FC25E194E8BB700FC32EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		002FC260194E8BB700FC32EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		002FC263194E8BB700FC32EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		002FC265194E8BB700FC32EA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		002FC26B194E8BB700FC32EA /* WorldCupTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldCupTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		002FC270194E8BB700FC32EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002FC271194E8BB700FC32EA /* WorldCupTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupTVTests.swift; sourceTree = "<group>"; };
+		002FC27B194E8C8100FC32EA /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileVLCKit.framework; path = "../../../opensource/MobileVLCKit-SDK/MobileVLCKit.framework"; sourceTree = "<group>"; };
+		002FC27D194E8D0200FC32EA /* WorldCupTV-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WorldCupTV-Bridging-Header.h"; sourceTree = "<group>"; };
+		002FC27E194E8D0400FC32EA /* Channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Channel.h; sourceTree = "<group>"; };
+		002FC27F194E8D0400FC32EA /* Channel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Channel.mm; sourceTree = "<group>"; };
+		002FC281194E90E600FC32EA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		002FC283194E90FF00FC32EA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		002FC285194E912000FC32EA /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = usr/lib/libbz2.dylib; sourceTree = SDKROOT; };
+		002FC287194E913800FC32EA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		002FC289194E915000FC32EA /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		002FC28B194E916400FC32EA /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		002FC28D194E934A00FC32EA /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		002FC256194E8BB700FC32EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002FC28E194E934A00FC32EA /* libiconv.dylib in Frameworks */,
+				002FC28C194E916400FC32EA /* libstdc++.dylib in Frameworks */,
+				002FC28A194E915000FC32EA /* OpenGLES.framework in Frameworks */,
+				002FC288194E913800FC32EA /* CoreText.framework in Frameworks */,
+				002FC286194E912000FC32EA /* libbz2.dylib in Frameworks */,
+				002FC284194E90FF00FC32EA /* AudioToolbox.framework in Frameworks */,
+				002FC27C194E8C8100FC32EA /* MobileVLCKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002FC268194E8BB700FC32EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		002FC250194E8BB700FC32EA = {
+			isa = PBXGroup;
+			children = (
+				002FC28D194E934A00FC32EA /* libiconv.dylib */,
+				002FC28B194E916400FC32EA /* libstdc++.dylib */,
+				002FC289194E915000FC32EA /* OpenGLES.framework */,
+				002FC287194E913800FC32EA /* CoreText.framework */,
+				002FC285194E912000FC32EA /* libbz2.dylib */,
+				002FC283194E90FF00FC32EA /* AudioToolbox.framework */,
+				002FC281194E90E600FC32EA /* AVFoundation.framework */,
+				002FC27B194E8C8100FC32EA /* MobileVLCKit.framework */,
+				002FC25B194E8BB700FC32EA /* WorldCupTV */,
+				002FC26E194E8BB700FC32EA /* WorldCupTVTests */,
+				002FC25A194E8BB700FC32EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		002FC25A194E8BB700FC32EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				002FC259194E8BB700FC32EA /* WorldCupTV.app */,
+				002FC26B194E8BB700FC32EA /* WorldCupTVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		002FC25B194E8BB700FC32EA /* WorldCupTV */ = {
+			isa = PBXGroup;
+			children = (
+				002FC25E194E8BB700FC32EA /* AppDelegate.swift */,
+				002FC260194E8BB700FC32EA /* ViewController.swift */,
+				002FC27E194E8D0400FC32EA /* Channel.h */,
+				002FC27F194E8D0400FC32EA /* Channel.mm */,
+				002FC262194E8BB700FC32EA /* Main.storyboard */,
+				002FC265194E8BB700FC32EA /* Images.xcassets */,
+				002FC25C194E8BB700FC32EA /* Supporting Files */,
+				002FC27D194E8D0200FC32EA /* WorldCupTV-Bridging-Header.h */,
+			);
+			path = WorldCupTV;
+			sourceTree = "<group>";
+		};
+		002FC25C194E8BB700FC32EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				002FC25D194E8BB700FC32EA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		002FC26E194E8BB700FC32EA /* WorldCupTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				002FC271194E8BB700FC32EA /* WorldCupTVTests.swift */,
+				002FC26F194E8BB700FC32EA /* Supporting Files */,
+			);
+			path = WorldCupTVTests;
+			sourceTree = "<group>";
+		};
+		002FC26F194E8BB700FC32EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				002FC270194E8BB700FC32EA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		002FC258194E8BB700FC32EA /* WorldCupTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002FC275194E8BB700FC32EA /* Build configuration list for PBXNativeTarget "WorldCupTV" */;
+			buildPhases = (
+				002FC255194E8BB700FC32EA /* Sources */,
+				002FC256194E8BB700FC32EA /* Frameworks */,
+				002FC257194E8BB700FC32EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldCupTV;
+			productName = WorldCupTV;
+			productReference = 002FC259194E8BB700FC32EA /* WorldCupTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		002FC26A194E8BB700FC32EA /* WorldCupTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002FC278194E8BB700FC32EA /* Build configuration list for PBXNativeTarget "WorldCupTVTests" */;
+			buildPhases = (
+				002FC267194E8BB700FC32EA /* Sources */,
+				002FC268194E8BB700FC32EA /* Frameworks */,
+				002FC269194E8BB700FC32EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				002FC26D194E8BB700FC32EA /* PBXTargetDependency */,
+			);
+			name = WorldCupTVTests;
+			productName = WorldCupTVTests;
+			productReference = 002FC26B194E8BB700FC32EA /* WorldCupTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		002FC251194E8BB700FC32EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "长沙戴维营教育";
+				TargetAttributes = {
+					002FC258194E8BB700FC32EA = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					002FC26A194E8BB700FC32EA = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 002FC258194E8BB700FC32EA;
+					};
+				};
+			};
+			buildConfigurationList = 002FC254194E8BB700FC32EA /* Build configuration list for PBXProject "WorldCupTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 002FC250194E8BB700FC32EA;
+			productRefGroup = 002FC25A194E8BB700FC32EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				002FC258194E8BB700FC32EA /* WorldCupTV */,
+				002FC26A194E8BB700FC32EA /* WorldCupTVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		002FC257194E8BB700FC32EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002FC264194E8BB700FC32EA /* Main.storyboard in Resources */,
+				002FC266194E8BB700FC32EA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002FC269194E8BB700FC32EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		002FC255194E8BB700FC32EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002FC261194E8BB700FC32EA /* ViewController.swift in Sources */,
+				002FC280194E8D0400FC32EA /* Channel.mm in Sources */,
+				002FC25F194E8BB700FC32EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002FC267194E8BB700FC32EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002FC272194E8BB700FC32EA /* WorldCupTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		002FC26D194E8BB700FC32EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 002FC258194E8BB700FC32EA /* WorldCupTV */;
+			targetProxy = 002FC26C194E8BB700FC32EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		002FC262194E8BB700FC32EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002FC263194E8BB700FC32EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		002FC273194E8BB700FC32EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		002FC274194E8BB700FC32EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		002FC276194E8BB700FC32EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/cheetah/opensource/MobileVLCKit-SDK",
+				);
+				INFOPLIST_FILE = WorldCupTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WorldCupTV/WorldCupTV-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		002FC277194E8BB700FC32EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/cheetah/opensource/MobileVLCKit-SDK",
+				);
+				INFOPLIST_FILE = WorldCupTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WorldCupTV/WorldCupTV-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		002FC279194E8BB700FC32EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WorldCupTV.app/WorldCupTV";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WorldCupTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		002FC27A194E8BB700FC32EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WorldCupTV.app/WorldCupTV";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WorldCupTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		002FC254194E8BB700FC32EA /* Build configuration list for PBXProject "WorldCupTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002FC273194E8BB700FC32EA /* Debug */,
+				002FC274194E8BB700FC32EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002FC275194E8BB700FC32EA /* Build configuration list for PBXNativeTarget "WorldCupTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002FC276194E8BB700FC32EA /* Debug */,
+				002FC277194E8BB700FC32EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		002FC278194E8BB700FC32EA /* Build configuration list for PBXNativeTarget "WorldCupTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002FC279194E8BB700FC32EA /* Debug */,
+				002FC27A194E8BB700FC32EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 002FC251194E8BB700FC32EA /* Project object */;
+}

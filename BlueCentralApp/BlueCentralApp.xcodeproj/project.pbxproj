@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E31439195AA93F003B5C12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E31438195AA93F003B5C12 /* AppDelegate.swift */; };
+		00E3143B195AA93F003B5C12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E3143A195AA93F003B5C12 /* ViewController.swift */; };
+		00E3143E195AA93F003B5C12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E3143C195AA93F003B5C12 /* Main.storyboard */; };
+		00E31440195AA93F003B5C12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00E3143F195AA93F003B5C12 /* Images.xcassets */; };
+		00E3144C195AA93F003B5C12 /* BlueCentralAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E3144B195AA93F003B5C12 /* BlueCentralAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E31446195AA93F003B5C12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00E3142B195AA93F003B5C12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00E31432195AA93F003B5C12;
+			remoteInfo = BlueCentralApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E31433195AA93F003B5C12 /* BlueCentralApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueCentralApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E31437195AA93F003B5C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E31438195AA93F003B5C12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00E3143A195AA93F003B5C12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00E3143D195AA93F003B5C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00E3143F195AA93F003B5C12 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00E31445195AA93F003B5C12 /* BlueCentralAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueCentralAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E3144A195AA93F003B5C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E3144B195AA93F003B5C12 /* BlueCentralAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueCentralAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E31430195AA93F003B5C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00E31442195AA93F003B5C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E3142A195AA93F003B5C12 = {
+			isa = PBXGroup;
+			children = (
+				00E31435195AA93F003B5C12 /* BlueCentralApp */,
+				00E31448195AA93F003B5C12 /* BlueCentralAppTests */,
+				00E31434195AA93F003B5C12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00E31434195AA93F003B5C12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00E31433195AA93F003B5C12 /* BlueCentralApp.app */,
+				00E31445195AA93F003B5C12 /* BlueCentralAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00E31435195AA93F003B5C12 /* BlueCentralApp */ = {
+			isa = PBXGroup;
+			children = (
+				00E31438195AA93F003B5C12 /* AppDelegate.swift */,
+				00E3143A195AA93F003B5C12 /* ViewController.swift */,
+				00E3143C195AA93F003B5C12 /* Main.storyboard */,
+				00E3143F195AA93F003B5C12 /* Images.xcassets */,
+				00E31436195AA93F003B5C12 /* Supporting Files */,
+			);
+			path = BlueCentralApp;
+			sourceTree = "<group>";
+		};
+		00E31436195AA93F003B5C12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E31437195AA93F003B5C12 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00E31448195AA93F003B5C12 /* BlueCentralAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E3144B195AA93F003B5C12 /* BlueCentralAppTests.swift */,
+				00E31449195AA93F003B5C12 /* Supporting Files */,
+			);
+			path = BlueCentralAppTests;
+			sourceTree = "<group>";
+		};
+		00E31449195AA93F003B5C12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E3144A195AA93F003B5C12 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E31432195AA93F003B5C12 /* BlueCentralApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E3144F195AA93F003B5C12 /* Build configuration list for PBXNativeTarget "BlueCentralApp" */;
+			buildPhases = (
+				00E3142F195AA93F003B5C12 /* Sources */,
+				00E31430195AA93F003B5C12 /* Frameworks */,
+				00E31431195AA93F003B5C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueCentralApp;
+			productName = BlueCentralApp;
+			productReference = 00E31433195AA93F003B5C12 /* BlueCentralApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00E31444195AA93F003B5C12 /* BlueCentralAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E31452195AA93F003B5C12 /* Build configuration list for PBXNativeTarget "BlueCentralAppTests" */;
+			buildPhases = (
+				00E31441195AA93F003B5C12 /* Sources */,
+				00E31442195AA93F003B5C12 /* Frameworks */,
+				00E31443195AA93F003B5C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E31447195AA93F003B5C12 /* PBXTargetDependency */,
+			);
+			name = BlueCentralAppTests;
+			productName = BlueCentralAppTests;
+			productReference = 00E31445195AA93F003B5C12 /* BlueCentralAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00E3142B195AA93F003B5C12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "长沙戴维营教育";
+				TargetAttributes = {
+					00E31432195AA93F003B5C12 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					00E31444195AA93F003B5C12 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 00E31432195AA93F003B5C12;
+					};
+				};
+			};
+			buildConfigurationList = 00E3142E195AA93F003B5C12 /* Build configuration list for PBXProject "BlueCentralApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00E3142A195AA93F003B5C12;
+			productRefGroup = 00E31434195AA93F003B5C12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00E31432195AA93F003B5C12 /* BlueCentralApp */,
+				00E31444195AA93F003B5C12 /* BlueCentralAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E31431195AA93F003B5C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E3143E195AA93F003B5C12 /* Main.storyboard in Resources */,
+				00E31440195AA93F003B5C12 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00E31443195AA93F003B5C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E3142F195AA93F003B5C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E3143B195AA93F003B5C12 /* ViewController.swift in Sources */,
+				00E31439195AA93F003B5C12 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00E31441195AA93F003B5C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E3144C195AA93F003B5C12 /* BlueCentralAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E31447195AA93F003B5C12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00E31432195AA93F003B5C12 /* BlueCentralApp */;
+			targetProxy = 00E31446195AA93F003B5C12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00E3143C195AA93F003B5C12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00E3143D195AA93F003B5C12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E3144D195AA93F003B5C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00E3144E195AA93F003B5C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00E31450195AA93F003B5C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BlueCentralApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00E31451195AA93F003B5C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BlueCentralApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		00E31453195AA93F003B5C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlueCentralApp.app/BlueCentralApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlueCentralAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		00E31454195AA93F003B5C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlueCentralApp.app/BlueCentralApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlueCentralAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E3142E195AA93F003B5C12 /* Build configuration list for PBXProject "BlueCentralApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E3144D195AA93F003B5C12 /* Debug */,
+				00E3144E195AA93F003B5C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00E3144F195AA93F003B5C12 /* Build configuration list for PBXNativeTarget "BlueCentralApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E31450195AA93F003B5C12 /* Debug */,
+				00E31451195AA93F003B5C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00E31452195AA93F003B5C12 /* Build configuration list for PBXNativeTarget "BlueCentralAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E31453195AA93F003B5C12 /* Debug */,
+				00E31454195AA93F003B5C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00E3142B195AA93F003B5C12 /* Project object */;
+}

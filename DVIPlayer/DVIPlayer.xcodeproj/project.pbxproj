@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003C116E195BD1490011D0EA /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003C116D195BD1490011D0EA /* Song.swift */; };
+		00CB259D195BC56A000D7727 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CB259C195BC56A000D7727 /* Channel.swift */; };
+		00E76364195BB86A001A08C8 /* OnlineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E76363195BB86A001A08C8 /* OnlineTableViewController.swift */; };
+		00E76366195BB8B5001A08C8 /* OnlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E76365195BB8B5001A08C8 /* OnlineViewController.swift */; };
+		00E76368195BB8E7001A08C8 /* OfflineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E76367195BB8E7001A08C8 /* OfflineTableViewController.swift */; };
+		00E7636A195BB90D001A08C8 /* OfflineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E76369195BB90D001A08C8 /* OfflineViewController.swift */; };
+		00EB0D29195BB45200D62EE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EB0D28195BB45200D62EE5 /* AppDelegate.swift */; };
+		00EB0D2B195BB45200D62EE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EB0D2A195BB45200D62EE5 /* ViewController.swift */; };
+		00EB0D2E195BB45200D62EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00EB0D2C195BB45200D62EE5 /* Main.storyboard */; };
+		00EB0D30195BB45200D62EE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00EB0D2F195BB45200D62EE5 /* Images.xcassets */; };
+		00EB0D3C195BB45200D62EE5 /* DVIPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EB0D3B195BB45200D62EE5 /* DVIPlayerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00EB0D36195BB45200D62EE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00EB0D1B195BB45200D62EE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00EB0D22195BB45200D62EE5;
+			remoteInfo = DVIPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003C116D195BD1490011D0EA /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		00CB259C195BC56A000D7727 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		00E76363195BB86A001A08C8 /* OnlineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnlineTableViewController.swift; sourceTree = "<group>"; };
+		00E76365195BB8B5001A08C8 /* OnlineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnlineViewController.swift; sourceTree = "<group>"; };
+		00E76367195BB8E7001A08C8 /* OfflineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflineTableViewController.swift; sourceTree = "<group>"; };
+		00E76369195BB90D001A08C8 /* OfflineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflineViewController.swift; sourceTree = "<group>"; };
+		00EB0D23195BB45200D62EE5 /* DVIPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVIPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00EB0D27195BB45200D62EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00EB0D28195BB45200D62EE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00EB0D2A195BB45200D62EE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00EB0D2D195BB45200D62EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00EB0D2F195BB45200D62EE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00EB0D35195BB45200D62EE5 /* DVIPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVIPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00EB0D3A195BB45200D62EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00EB0D3B195BB45200D62EE5 /* DVIPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVIPlayerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00EB0D20195BB45200D62EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00EB0D32195BB45200D62EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00EB0D1A195BB45200D62EE5 = {
+			isa = PBXGroup;
+			children = (
+				00EB0D25195BB45200D62EE5 /* DVIPlayer */,
+				00EB0D38195BB45200D62EE5 /* DVIPlayerTests */,
+				00EB0D24195BB45200D62EE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00EB0D24195BB45200D62EE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00EB0D23195BB45200D62EE5 /* DVIPlayer.app */,
+				00EB0D35195BB45200D62EE5 /* DVIPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00EB0D25195BB45200D62EE5 /* DVIPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				00EB0D28195BB45200D62EE5 /* AppDelegate.swift */,
+				00EB0D2A195BB45200D62EE5 /* ViewController.swift */,
+				00EB0D2C195BB45200D62EE5 /* Main.storyboard */,
+				00E76369195BB90D001A08C8 /* OfflineViewController.swift */,
+				00E76367195BB8E7001A08C8 /* OfflineTableViewController.swift */,
+				00E76365195BB8B5001A08C8 /* OnlineViewController.swift */,
+				00E76363195BB86A001A08C8 /* OnlineTableViewController.swift */,
+				00CB259C195BC56A000D7727 /* Channel.swift */,
+				003C116D195BD1490011D0EA /* Song.swift */,
+				00EB0D2F195BB45200D62EE5 /* Images.xcassets */,
+				00EB0D26195BB45200D62EE5 /* Supporting Files */,
+			);
+			path = DVIPlayer;
+			sourceTree = "<group>";
+		};
+		00EB0D26195BB45200D62EE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00EB0D27195BB45200D62EE5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00EB0D38195BB45200D62EE5 /* DVIPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				00EB0D3B195BB45200D62EE5 /* DVIPlayerTests.swift */,
+				00EB0D39195BB45200D62EE5 /* Supporting Files */,
+			);
+			path = DVIPlayerTests;
+			sourceTree = "<group>";
+		};
+		00EB0D39195BB45200D62EE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00EB0D3A195BB45200D62EE5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00EB0D22195BB45200D62EE5 /* DVIPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00EB0D3F195BB45200D62EE5 /* Build configuration list for PBXNativeTarget "DVIPlayer" */;
+			buildPhases = (
+				00EB0D1F195BB45200D62EE5 /* Sources */,
+				00EB0D20195BB45200D62EE5 /* Frameworks */,
+				00EB0D21195BB45200D62EE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DVIPlayer;
+			productName = DVIPlayer;
+			productReference = 00EB0D23195BB45200D62EE5 /* DVIPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00EB0D34195BB45200D62EE5 /* DVIPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00EB0D42195BB45200D62EE5 /* Build configuration list for PBXNativeTarget "DVIPlayerTests" */;
+			buildPhases = (
+				00EB0D31195BB45200D62EE5 /* Sources */,
+				00EB0D32195BB45200D62EE5 /* Frameworks */,
+				00EB0D33195BB45200D62EE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00EB0D37195BB45200D62EE5 /* PBXTargetDependency */,
+			);
+			name = DVIPlayerTests;
+			productName = DVIPlayerTests;
+			productReference = 00EB0D35195BB45200D62EE5 /* DVIPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00EB0D1B195BB45200D62EE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "长沙戴维营教育";
+				TargetAttributes = {
+					00EB0D22195BB45200D62EE5 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					00EB0D34195BB45200D62EE5 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 00EB0D22195BB45200D62EE5;
+					};
+				};
+			};
+			buildConfigurationList = 00EB0D1E195BB45200D62EE5 /* Build configuration list for PBXProject "DVIPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00EB0D1A195BB45200D62EE5;
+			productRefGroup = 00EB0D24195BB45200D62EE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00EB0D22195BB45200D62EE5 /* DVIPlayer */,
+				00EB0D34195BB45200D62EE5 /* DVIPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00EB0D21195BB45200D62EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00EB0D2E195BB45200D62EE5 /* Main.storyboard in Resources */,
+				00EB0D30195BB45200D62EE5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00EB0D33195BB45200D62EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00EB0D1F195BB45200D62EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CB259D195BC56A000D7727 /* Channel.swift in Sources */,
+				00E7636A195BB90D001A08C8 /* OfflineViewController.swift in Sources */,
+				00EB0D2B195BB45200D62EE5 /* ViewController.swift in Sources */,
+				00E76366195BB8B5001A08C8 /* OnlineViewController.swift in Sources */,
+				003C116E195BD1490011D0EA /* Song.swift in Sources */,
+				00E76368195BB8E7001A08C8 /* OfflineTableViewController.swift in Sources */,
+				00E76364195BB86A001A08C8 /* OnlineTableViewController.swift in Sources */,
+				00EB0D29195BB45200D62EE5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00EB0D31195BB45200D62EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00EB0D3C195BB45200D62EE5 /* DVIPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00EB0D37195BB45200D62EE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00EB0D22195BB45200D62EE5 /* DVIPlayer */;
+			targetProxy = 00EB0D36195BB45200D62EE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00EB0D2C195BB45200D62EE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00EB0D2D195BB45200D62EE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00EB0D3D195BB45200D62EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00EB0D3E195BB45200D62EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00EB0D40195BB45200D62EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = DVIPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00EB0D41195BB45200D62EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = DVIPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		00EB0D43195BB45200D62EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DVIPlayer.app/DVIPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DVIPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		00EB0D44195BB45200D62EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DVIPlayer.app/DVIPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DVIPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00EB0D1E195BB45200D62EE5 /* Build configuration list for PBXProject "DVIPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00EB0D3D195BB45200D62EE5 /* Debug */,
+				00EB0D3E195BB45200D62EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00EB0D3F195BB45200D62EE5 /* Build configuration list for PBXNativeTarget "DVIPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00EB0D40195BB45200D62EE5 /* Debug */,
+				00EB0D41195BB45200D62EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00EB0D42195BB45200D62EE5 /* Build configuration list for PBXNativeTarget "DVIPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00EB0D43195BB45200D62EE5 /* Debug */,
+				00EB0D44195BB45200D62EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00EB0D1B195BB45200D62EE5 /* Project object */;
+}

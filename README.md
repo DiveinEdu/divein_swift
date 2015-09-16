@@ -12,7 +12,7 @@
 本书配套有大量的技术博客以及视频教程，如下：
 #### 视频教程
 Swift开发视频
-http://ubuntucollege.cn/course/29
+[http://v.diveinedu.com/course/i8be982d](http://v.diveinedu.com/course/i8be982d)
 
 #### 技术博客
 Objective-C和Swift混合编程开发(一)
